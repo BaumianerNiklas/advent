@@ -27,14 +27,14 @@ def update():
 for line in lines:
     match line.split(" "):
         case ["noop"]:
-            update()
             cycles += 1
+            update()
         
         case ["addx", num]:
-            update()
             cycles += 1
             update()
             cycles += 1
+            update()
 
             X += int(num)
 
