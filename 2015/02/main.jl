@@ -3,7 +3,7 @@ function min2(box)
 end
 
 function reqpaper(box)
-	surface_area = 2 * (box[2] * box[3] + box[1] * box[3])
+	surface_area = 2 * (box[1] * box[2] * box[2] * box[3] + box[1] * box[3])
 	area = min2(box) |> prod
 
 	area + surface_area
