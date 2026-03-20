@@ -1,1 +1,5 @@
 .elixir_ls
+
+**/inputs/**/*.txt
+**/target
+**/Cargo.lock
