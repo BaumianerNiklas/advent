@@ -3,3 +3,6 @@
 **/inputs/**/*.txt
 **/target
 **/Cargo.lock
+
+*.in
+*.out
