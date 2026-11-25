@@ -1,5 +1,7 @@
 .elixir_ls
 
+.DS_Store
+
 **/inputs/**/*.txt
 **/target
 **/Cargo.lock
